@@ -2,13 +2,13 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
-df = pd.read_csv("D:\VS CODE\merge-csv.com__646494771c178.csv")
+df = pd.read_csv("merge-csv.com__646494771c178.csv")
 df = pd.DataFrame(data=df)
 
 start = '2023-05-30' 
 end = '2023-12-31'  
-prices = pd.read_csv('D:\VS CODE\merge-csv.com__646494771c178.csv')['Harga'][:216].values
-date = pd.read_csv('D:\VS CODE\merge-csv.com__646494771c178.csv')['date'][:216].values 
+prices = pd.read_csv('merge-csv.com__646494771c178.csv')['Harga'][:216].values
+date = pd.read_csv('merge-csv.com__646494771c178.csv')['date'][:216].values 
 
 x = st.date_input("Select a date")
 
