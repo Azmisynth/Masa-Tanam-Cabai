@@ -11,7 +11,7 @@ prices = pd.read_csv('merge-csv.com__646494771c178.csv')['Harga'][:216].values
 date = pd.read_csv('merge-csv.com__646494771c178.csv')['date'][:216].values 
 
 st.title("Penentu Masa Tanam")
-st.write("masukan rencana tanggal tanam mu)
+st.write("masukan rencana tanggal tanam mu")
 
 x = st.date_input("Select a date")
 
